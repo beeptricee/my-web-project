@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Лучший курс по веб-разработке | Мой Проект</title>
+    <meta name="description" content="Освойте веб-разработку с нуля. Практические задания, SEO-оптимизация и доступность интерфейсов. Начните учиться сегодня!">
+    <meta name="keywords" content="веб-разработка, обучение, SEO, HTML, CSS, JavaScript, курсы">
+    <meta name="author" content="Иван Иванов">
+
+    <meta property="og:title" content="Лучший курс по веб-разработке | Мой Проект">
+    <meta property="og:description" content="Освойте веб-разработку с нуля. Практические задания и реальные проекты.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ваш-логин.github.io/название-репозитория/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="analytics.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать на мой учебный проект</h1>
+    </header>
+
+    <main>
+        <h2 class="sr-only">Основная информация о проекте</h2>
+
+        <section aria-labelledby="about-title">
+            <h2 id="about-title">О проекте</h2>
+            <p>Этот сайт создан для выполнения практической работы по SEO и доступности.</p>
+            
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" 
+                 alt="Ноутбук с открытым кодом на экране, символизирующий веб-разработку" 
+                 class="hero-img">
+        </section>
+
+        <section aria-labelledby="cta-title">
+            <h2 id="cta-title">Записаться на курс</h2>
+            <p>Нажмите на кнопку, чтобы оставить заявку.</p>
+            
+            <button id="cta-btn" class="cta-button" aria-label="Записаться на курс веб-разработки">Записаться</button>
+        </section>
+
+        <section aria-labelledby="form-title">
+            <h2 id="form-title">Обратная связь</h2>
+            <form action="#" method="POST">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" placeholder="Введите имя" aria-label="Поле для ввода имени" required>
+
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" aria-label="Поле для ввода электронной почты" required>
+
+                <button type="submit" class="cta-button" aria-label="Отправить форму обратной связи">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Учебный проект</p>
+    </footer>
+
+</body>
+</html>
